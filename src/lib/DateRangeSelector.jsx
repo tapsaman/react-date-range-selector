@@ -1,20 +1,40 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react"
+import PropTypes from "prop-types"
 
-import Slider from './Slider';
+import Slider from "./Slider"
 
 export default class DateRangeSelector extends React.Component {
 	
+	static propTypes = {
+		min: 			PropTypes.number.isRequired,
+		max: 			PropTypes.number.isRequired,
+		//start: 			PropTypes.number.isRequired,
+		//end: 			PropTypes.number.isRequired,
+		step:			PropTypes.number,
+		onChange:		PropTypes.func,
+		//marks: 			PropTypes.arrayOf(PropTypes.object),
+		showSlider:		PropTypes.bool,
+
+		start: 			validateStartEnd,
+		end: 			validateStartEnd,
+		controlled: 	PropTypes.bool,
+		sliderProps:	PropTypes.object,
+
+		marks: 			PropTypes.arrayOf(
+			PropTypes.exact({
+				date: 		PropTypes.number,
+				start: 		PropTypes.number,
+				end: 		PropTypes.number,
+				tooltip: 	PropTypes.string,
+				color: 		PropTypes.string
+			}))
+	}
+
+	static defaultProps = {
+		showSlider:		true
+	}
+
 	constructor(props)
-	/* expects as props:
-	@	min			| number
-	@	max			| number
-	@	start 		| number
-	@ 	end 		| number
-	@	controlled 	| bool
-	@	marks 		| object array
-	@ 	onChange	| onChange
-	*/
 	{
 		super(props)
 
@@ -26,18 +46,22 @@ export default class DateRangeSelector extends React.Component {
 
 	render()
 	{
-		const { slider, min, max } = this.props
+		const { showSlider, min, max, step, sliderProps } = this.props
 		const { start, end } = this.state
 
 		return (
 			<div className="drs-container">
-				{slider
+				{showSlider
 					?	<Slider
 							min={min}
 							max={max}
 							start={start}
 							end={end}
-							onChange={this.change}
+							step={step}
+							onChange={this.sliderChange}
+							formatValue={formatDate}
+							controlled={true}
+							{...sliderProps}
 							/>
 					:	null
 				}
@@ -45,6 +69,7 @@ export default class DateRangeSelector extends React.Component {
 		)
 	}
 
+	// slider change wanha
 	change = (start, end) => {
 		const { controlled, onChange } = this.props
 		
@@ -57,39 +82,29 @@ export default class DateRangeSelector extends React.Component {
 			onChange(start, end)
 		}
 	}
-}
 
-DateRangeSelector.defaultProps = {
-	slider: 		true
-}
-
-DateRangeSelector.propTypes = {
-	min: 			PropTypes.number.isRequired,
-	max: 			PropTypes.number.isRequired,
-	start: 			validateStartEnd,
-	end: 			validateStartEnd,
-	controlled: 	PropTypes.bool,
-	slider: 		PropTypes.bool,
-	marks: 			PropTypes.arrayOf(PropTypes.exact({
-						date: 		PropTypes.number,
-						start: 		PropTypes.number,
-						end: 		PropTypes.number,
-						tooltip: 	PropTypes.string,
-						color: 		PropTypes.string
-					})),
-	onChange: 		PropTypes.func
+	sliderChange = (start, end) => {
+		this.setState({
+			start, end
+		})
+	}
 }
 
 function validateStartEnd(props, propName, componentName)
 {
 	if (typeof props[propName] !== "number")
 	{
-		return new Error('Invalid prop `' + propName + '` supplied to' +
-        	' `' + componentName + '`. Expected a number.')
+		return new Error("Invalid prop `" + propName + "` supplied to `"
+			+ componentName + "`. Expected a number.")
 	}
 	if (props.controlled && props[propName] === undefined)
 	{
 		return new Error("Prop '" + propName + "' required when '" + componentName
 			+ "' is in 'controlled' mode.")
 	}
+}
+
+function formatDate(dateMs) {
+	const d = new Date(dateMs)
+	return d.toLocaleDateString() + " " + d.toLocaleTimeString()
 }

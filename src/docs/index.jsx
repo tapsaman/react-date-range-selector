@@ -21,10 +21,11 @@ class Demo extends React.Component {
 		return (
 			<div>
 				<DateRangeSelector 
-					min={0}
-					max={1000}
-					start={900}
-					end={1000}
+					min={1514757600000}
+					max={1546293600000}
+					start={1514757600000}
+					end={1546293600000}
+					step={3600000}
 					/>
 			</div>
 		)

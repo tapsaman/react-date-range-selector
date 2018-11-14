@@ -1,0 +1,75 @@
+.time-input {
+	font-size: 30px;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 6px 0 5px;
+
+	.unit-button {
+		display: block;
+		margin-top: -5px;
+		margin-bottom: auto;
+		font-size: 20px;
+
+		border: none;
+		background-color: transparent;
+		font-family: inherit;
+		cursor: pointer;
+		color: #999;
+
+		&.left {
+			margin-right: 24px;
+			margin-left: auto;
+		}
+
+		&.right {
+			margin-right: auto;
+			margin-left: 24px;
+		}
+
+		&:hover {
+			color: #000;
+		}
+	}
+
+	.unit-input {
+		background-color: transparent;
+		max-width: 40px;
+		font-size: 30px;
+		text-align: center;
+		border: none;
+		display: block;
+		margin: auto;
+
+		&.left {
+			margin-right: 15px;
+		}
+
+		&.right {
+			margin-left: 15px;
+		}
+	}
+
+	.colon {
+		text-align: center;
+		font-size: 45px;
+		width: 0;
+
+		-webkit-animation: 	toggle 2s linear 0s infinite;
+		animation: 			toggle 2s linear 0s infinite;
+	}
+
+
+/*
+	&.am-pm {
+		.time-unit-input {
+			width: 33%;
+		}
+	}*/
+}
+
+@keyframes toggle {
+    0% { visibility: visible; }
+    50% { visibility: visible; }
+    51% { visibility: hidden; }
+    100% { visibility: hidden; }
+}

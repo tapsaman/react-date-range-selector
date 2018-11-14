@@ -1,0 +1,187 @@
+
+.calendar-container {
+	width: 200px;
+	height: 230px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.calendar-mask {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+
+.velocity-animating + .calendar-mask {
+	display: block;
+}
+
+.calendar-view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+
+	td, th {
+		font-weight: normal;
+		text-align: center;
+	}
+
+	td.prev {
+		text-align: left;
+		padding: 0 4px;
+	}
+	td.next {
+		text-align: right;
+		padding: 0 4px;
+	}
+
+	.head-row {
+		background-color: @color-primary-3;
+		border: 1px solid @color-primary-3;
+		color: @bg-color;
+
+		-webkit-box-shadow: inset 0px -6px 15px -10px rgba(0,0,0,0.65);
+		-moz-box-shadow: inset 0px -6px 15px -10px rgba(0,0,0,0.65);
+		box-shadow: inset 0px -6px 15px -10px rgba(0,0,0,0.65);
+	}
+
+	td.day, td.month {
+		border-left: 	1px solid #999;
+		border-bottom: 	1px solid #999;
+		-webkit-box-shadow: inset -5px -5px 15px -10px rgba(0,0,0,0.65);
+		-moz-box-shadow: inset -5px -5px 15px -10px rgba(0,0,0,0.65);
+		box-shadow: inset -5px -5px 15px -10px rgba(0,0,0,0.65);
+
+		&:last-child {
+			border-right: 1px solid #999;
+		}
+	}
+
+	.sel:hover {
+		cursor: pointer;
+		color: #f59 !important;
+	}
+}
+
+.calendar-year-view {
+	td {
+		width: 33%;
+		height: 20%;
+		font-size: 90%;
+	}
+	td.year {
+		font-size: 120%;
+	}
+
+	td.month {
+		&.disabled {
+			position: relative;
+			overflow: hidden;
+			background-color: #555;
+			color: #999;
+		}
+
+		.disabled-line {
+			position: absolute;
+			width: 150%;
+			height: 2px;
+			background-color: #d00;
+			top: 12px;
+		
+			&.top-left {
+				top: 12px;
+				transform: rotate(45deg);
+				right: -8px;
+			}
+			&.top-right {
+				top: 12px;
+				transform: rotate(-45deg);
+				right: -8px;
+			}
+		}
+	}
+}
+
+.calendar-month-view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+
+	tr.month-row td {
+		font-size: 100%;
+	}
+
+	td, th {
+		text-align: center;
+		width: 14%;
+		font-size: 90%;
+	}
+
+	td.day {
+		
+		&.not-this-month {
+			background-color: #aaa;
+			opacity: 0.5;
+		}
+
+		&.selected {
+			background-color: #bbf;
+			border-radius: 50%;
+		}
+
+		&.disabled {
+			position: relative;
+			overflow: hidden;
+			background-color: #555;
+			color: #999;
+		}
+
+		.disabled-line {
+			position: absolute;
+			width: 150%;
+			height: 2px;
+			background-color: #d00;
+			top: 12px;
+		
+			&.top-left {
+				top: 12px;
+				transform: rotate(45deg);
+				right: -8px;
+			}
+			&.top-right {
+				top: 12px;
+				transform: rotate(-45deg);
+				right: -8px;
+			}
+		}
+
+		&.paint {
+			background-color: #bbf;
+
+			&.paint-start {
+				border-radius: 5px 0 0 5px;
+			}
+
+			&.paint-end {
+				border-radius: 0 5px 5px 0;
+			}
+		}
+
+		&.range {
+			background-color: #ebb;
+		}
+	}
+}

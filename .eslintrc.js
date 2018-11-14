@@ -43,16 +43,11 @@ module.exports = {
         "no-unused-vars": "warn",
         "no-invalid-this": 0,
         "babel/no-invalid-this": 1,
-        "class-methods-use-this": "warn",
+        //"class-methods-use-this": "warn",
         "no-console": [
             "off",
             { "allow": ["error"] }
         ],
-        //"semi": "off",
-        //"babel/semi": [
-        //    "off",
-        //    "never"
-        //],
         "operator-linebreak": [
             "error",
             "before",
@@ -64,11 +59,6 @@ module.exports = {
             "error",
             { "exceptions": {} }
         ],
-        // v-- doesn't work with tabs...
-        //"key-spacing": [
-        //    "error", 
-        //    { "align": "value" }
-        //],
         "react/jsx-no-bind": [
             "error",
             { "ignoreRefs": true }

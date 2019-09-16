@@ -1,0 +1,14 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "name": "sdg-front-estate root",
+            "folder_exclude_patterns": ["node_modules", "~compiled"]
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    }
+}

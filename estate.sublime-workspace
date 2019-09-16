@@ -1,0 +1,981 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fetched",
+				"fetchedToDate"
+			],
+			[
+				"DeviceToG",
+				"DeviceToggleSelect"
+			],
+			[
+				"URL_CHANGE_DASHBOARD_C",
+				"URL_CHANGE_DASHBOARD_COMBINED_FAILURE"
+			],
+			[
+				"head",
+				"headers"
+			],
+			[
+				"Prop",
+				"PropTypes"
+			],
+			[
+				"tick",
+				"tickStep"
+			],
+			[
+				"cw",
+				"cwun\tReact: componentWillUnmount: fn() { ... }"
+			],
+			[
+				"data",
+				"dataInParser"
+			],
+			[
+				"abs",
+				"absYMax"
+			],
+			[
+				"das",
+				"dashboardGroup"
+			],
+			[
+				"new",
+				"newTimezone"
+			],
+			[
+				"thr",
+				"thresholdMax"
+			],
+			[
+				"thre",
+				"thresholdMin"
+			],
+			[
+				"pa",
+				"parsedData"
+			],
+			[
+				"incl",
+				"includeUnits"
+			],
+			[
+				"DI",
+				"DIALOG_ACTIONS_REQUEST"
+			],
+			[
+				"newD",
+				"newDashboardType"
+			],
+			[
+				"da",
+				"dashboardGroups"
+			],
+			[
+				"R",
+				"ReassignDevicesDialog"
+			],
+			[
+				"resi",
+				"ew-resize\tcursor"
+			],
+			[
+				"res",
+				"resizingWidth"
+			],
+			[
+				"sta",
+				"startResize"
+			],
+			[
+				"Device",
+				"DevicePage"
+			],
+			[
+				"SET_A",
+				"SET_ALARM_CONTACTS_FAILURE"
+			],
+			[
+				"SET_Al",
+				"SET_ALARM_CONTACTS_SUCCESS"
+			],
+			[
+				"tri",
+				"SetTrigger(string name)\tvoid"
+			],
+			[
+				"open",
+				"openPage"
+			],
+			[
+				"i",
+				"itemSettings"
+			],
+			[
+				"ite",
+				"itemId"
+			],
+			[
+				"Sett",
+				"SettingsPageView"
+			],
+			[
+				"str",
+				"stringifyReplacer"
+			],
+			[
+				"is",
+				"isResizable"
+			],
+			[
+				"S",
+				"SIDEBAR_CLOSE"
+			],
+			[
+				"transfo",
+				"transform-origin\tproperty"
+			],
+			[
+				"cur",
+				"currentDate"
+			],
+			[
+				"preset",
+				"presetId"
+			],
+			[
+				"dashboard",
+				"dashboardId"
+			],
+			[
+				"SidebarCon",
+				"SidebarContent"
+			],
+			[
+				"cd",
+				"cdup\tReact: componentDidUpdate: fn(pp, ps) { ... }"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"colo",
+				"color-air-quality"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"dev",
+				"deviceIds"
+			],
+			[
+				"pro",
+				"promise"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"BAC",
+				"background-color\tproperty"
+			],
+			[
+				"device",
+				"deviceReducer"
+			],
+			[
+				"FET",
+				"FETCH_DEVICES_SUCCESS"
+			],
+			[
+				"D",
+				"DialogWrap"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"ran",
+				"rangeStart"
+			],
+			[
+				"ne",
+				"nextProps"
+			],
+			[
+				"get",
+				"getYear"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"on",
+				"onSuccess"
+			],
+			[
+				"Admin",
+				"AdminGet"
+			],
+			[
+				"devic",
+				"deviceProps"
+			],
+			[
+				"grou",
+				"groupName"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"test",
+				"testDataFile"
+			],
+			[
+				"bit",
+				"bitlength"
+			],
+			[
+				"con",
+				"conversion"
+			],
+			[
+				"out",
+				"outValues"
+			],
+			[
+				"wd",
+				"wdInj"
+			],
+			[
+				"e",
+				"elements"
+			],
+			[
+				"fun",
+				"funcbody"
+			],
+			[
+				"STAR",
+				"start"
+			],
+			[
+				"end",
+				"endDate"
+			],
+			[
+				"start",
+				"startDate"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"A",
+				"AnotherDialog"
+			],
+			[
+				"LO",
+				"LOGGED_IN_USER"
+			],
+			[
+				"_",
+				"_getDeviceLineChartData"
+			],
+			[
+				"tabl",
+				"tableData"
+			],
+			[
+				"newE",
+				"newEndDate"
+			],
+			[
+				"heat",
+				"heatLocs"
+			],
+			[
+				"hi",
+				"hideHeatMap"
+			],
+			[
+				"co",
+				"color-primary-5"
+			],
+			[
+				"arr",
+				"arrowLocs"
+			],
+			[
+				"sess",
+				"session_id"
+			],
+			[
+				"se",
+				"selectedIds"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"sho",
+				"showTable"
+			],
+			[
+				"bore",
+				"border-radius"
+			],
+			[
+				"fri",
+				"friendlyName"
+			],
+			[
+				"ti",
+				"titles"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"map",
+				"mapMarkers"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"date",
+				"dateMs"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"line",
+				"lineChartData"
+			],
+			[
+				"li",
+				"lineChartData"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"dataT",
+				"dataTypeId"
+			],
+			[
+				"fet",
+				"fetchError"
+			],
+			[
+				"ms",
+				"msgState"
+			],
+			[
+				"banderole-",
+				"banderole-btn"
+			],
+			[
+				"rota",
+				"rotateY()"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"user",
+				"userFetcher"
+			],
+			[
+				"call",
+				"callbackDataTypes"
+			],
+			[
+				"downli",
+				"downlinkValues"
+			],
+			[
+				"parse",
+				"parseType"
+			],
+			[
+				"cha",
+				"changeCallback"
+			],
+			[
+				"ca",
+				"callbackOut"
+			],
+			[
+				"qu",
+				"queryParams"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"fo",
+				"formElems"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"inp",
+				"inputValue"
+			],
+			[
+				"a",
+				"addable"
+			],
+			[
+				"child",
+				"childAmount"
+			],
+			[
+				"sigf",
+				"sigfoxRevProxy"
+			],
+			[
+				"group",
+				"groupId"
+			],
+			[
+				"ref",
+				"refreshPage"
+			],
+			[
+				"onFet",
+				"onFetchSuccess"
+			],
+			[
+				"compon",
+				"componentWillReceiveProps"
+			],
+			[
+				"component",
+				"componentDidMount"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"g",
+				"groupId"
+			],
+			[
+				"parser",
+				"parserIds"
+			],
+			[
+				"de",
+				"deviceId"
+			],
+			[
+				"dara",
+				"dataArray"
+			],
+			[
+				"devi",
+				"deviceList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/lib/Calendar/style.less",
+			"settings":
+			{
+				"buffer_size": 2928,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lib/DateRangeSelector.jsx",
+			"settings":
+			{
+				"buffer_size": 2263,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"v",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"key va",
+				"Snippet: Object key — key: \"value\""
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"orv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"rea",
+				"Snippet: react-component"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: peg",
+				"Package Control: Install Package"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Snippet: ",
+				"Snippet: react-component"
+			],
+			[
+				"snipp",
+				"Snippet: Prototype"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/git/react-date-range-selector",
+		"/C/git/react-date-range-selector/lib",
+		"/C/git/react-date-range-selector/src",
+		"/C/git/react-date-range-selector/src/docs",
+		"/C/git/react-date-range-selector/src/lib"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/sagas.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DashboardView.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/components/common.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/selectors/index.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~locales/fi/main.json",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/services/common.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/components/ModalToggle.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Devices/containers/OrphanDeviceListing.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/package.json",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DeviceToggleSelect.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Statistics/Statistics.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/app.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/data.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/containers/__DeviceData.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/containers/DataCont.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Statistics/StatisticsControl.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/__SelectedDataPage.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/gulpfile.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/components/DeviceChecklist.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Statistics/StatisticsDisplay.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/selectors/factories.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/components/__DeviceChecklist.jsx",
+		"/C/Users/tapsaman/AppData/Roaming/Sublime Text 3/Packages/10% Too Dull for My Tastes Color Scheme/.extracted-sublime-package",
+		"/C/Users/tapsaman/AppData/Roaming/Sublime Text 3/Packages/10% Too Dull for My Tastes Color Scheme/package-metadata.json",
+		"/C/Users/tapsaman/AppData/Roaming/Sublime Text 3/Packages/10% Too Dull for My Tastes Color Scheme/scotchy.tmTheme",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/UrlResolver.jsx",
+		"/C/Users/tapsaman/AppData/Roaming/Sublime Text 3/Installed Packages/LESS.sublime-package",
+		"/C/Users/tapsaman/AppData/Roaming/Sublime Text 3/Installed Packages/10% Too Dull for My Tastes Color Scheme.sublime-package",
+		"/C/xampp/htdocs/sdg-front-estate/todo.md",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/DeviceDataDisplay/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/DataToCSVExport.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardDataStatistics.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AppSearchPanel.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DashboardGroupsSidebarItem.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DashboardGroupMenu.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AppSearch.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AppSearchResults.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AppHeader.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AppSidebar.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/SelectOrCreateDashboard.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/forms/EditOrCreateDashboard.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Devices/containers/DevicesPageOptions.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/components/DialogToggleWrap.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/SidebarItem.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/SelectedDataDisplay.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DashboardSidebarSubContent.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/DeviceDataDisplay/components/Scrollers.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/AlarmsSidebarItem.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/storage.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/middleware/encoders.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/middleware/decoders.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/index.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/services/DataType.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/ChartJsWrap.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/NextUpdateDisplay.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/services/formParsers.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DataUpdateChecker.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/logout/index.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/DataUpdater.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/containers/ViewModeSelect.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/SDGIdResolver.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/CodeScanRedirect.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardActivityProfile.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardActivityProfileScroller.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardBarChart.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardLineChart.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardPieChart.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DashboardScrollableActivityProfile.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Dashboard/containers/DeviceLinks.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/CustomDateRange.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/RemoveDashboard.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/AlarmSettings/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/DashboardGroupCombined/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Alarms/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/DashboardGroupCombined/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/containers/DeviceData.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/UpdateIntervalMenu.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/DeviceIdCameraInput.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/DateRangeDisplay.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/containers/DeviceDataLineChart.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Settings/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/dashboardGroups.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/dashboards.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/scrollChart/S___ChartWrap.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/login/i18n.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/login/redux/storage.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/login/redux/index.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/LanguageMenu.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/Header.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/SearchPanel.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/MessageBox.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/grid-items/LineChartGridItem.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/grid-items/ErrorGridItem.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/i18n.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/login/components/LanguageSelect.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/login/app.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/settings.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/ui.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/redux/reducers/user.js",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Devices/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Settings/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Statistics/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/DashboardGroups/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/router.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Devices/containers/DashboardCell.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/tester/app.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/common/components/DateRangePicker/components/DateTimeInput/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/TimeZoneMenu.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/components/StatusResolver.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/ReassignDevices.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/DashboardCSVImport.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/ClearDashboards.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/AddDevice.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/RemoveGroup.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/EditDashboard.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/components/common.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/dialogs/components/DatatypesSorter.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/AlarmSettings/containers/ThresholdTableEditor.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/AlarmSettings/containers/ThresholdEditorDialog.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/AlarmSettings/containers/ContactsEditor.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Alarms/containers/AlarmsListing.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Alarms/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Alarms/containers/AlarmsListingControls.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Alarms/containers/AlarmsPageOptions.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/index.jsx",
+		"/C/xampp/htdocs/sdg-front-estate/web/~src/main/pages/Device/containers/ThresholdSettings.jsx"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 156.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"both",
+			"@"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/lib/Calendar/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/Syntaxes/LESS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/lib/DateRangeSelector.jsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.57.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 59.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "estate.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 369.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

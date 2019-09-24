@@ -529,10 +529,10 @@
 			}
 		},
 		{
-			"file": "src/lib/DateRangeSelector.jsx",
+			"file": "src/lib/Slider.jsx",
 			"settings":
 			{
-				"buffer_size": 2263,
+				"buffer_size": 6035,
 				"line_ending": "Windows"
 			}
 		}
@@ -859,11 +859,11 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/lib/DateRangeSelector.jsx",
+					"file": "src/lib/Slider.jsx",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2263,
+						"buffer_size": 6035,
 						"regions":
 						{
 						},
@@ -876,14 +876,24 @@
 						],
 						"settings":
 						{
-							"SL.57.region_keys":
+							"SL.53.region_keys":
 							[
+								"SL.eslint.Highlights.|40f5a8eeb70eae16c50ee95e7bb4ee8bcbbbd67e3c2eda12d5d35e162ef33953|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|89e2c9af97ba97e3a910424981a862331987b578c9907dc6bb40707d953b8b16|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|45340f10edc960bc6fd395f444f1a18e088d1adb30d12e1e510dbebea43d257d|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|91e0ade2e36fdbac61986b3b492f26def3e4d8e4c3b3c5bff2fb2756a6beeaa7|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|25630df676ee657224d9e477961f10c1df021b25fa83c4214911a07117bb6ae3|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.eslint.Highlights.|cf860cf0ecb10db40a8d1f74a653791d8435bf35debc0b14f1c5c571c371d438|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|4cb169e6b9459c34fa1b354167de9791ea71ee389761e8674b6e686c9ff99ff5|region.redish markup.error.sublime_linter|32",
+								"SL.eslint.Highlights.|08756372a4a579dbf616ff26db2ea85868dd8611ae7666692bf6678124b12a71|region.redish markup.error.sublime_linter|32"
 							],
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 312.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
